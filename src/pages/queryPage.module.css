@@ -80,7 +80,7 @@ body {
 .search > div > input:not(:placeholder-shown) {
   width: 250px;
 }
-.queryContainer ul {
+ .queryContainer ul {
   margin-top: 100px;
   list-style-type: none;
   width: 1000px;
@@ -99,11 +99,11 @@ body {
 .queryContainer li:hover {
   background-color: lightgray;
 }
-.queryContainer a {
+/* .queryContainer a {
   position: absolute;
   left: 200px;
   color: #777;
-}
+} */
 .noCategory {
   color: rgb(212, 81, 81);
   font-weight: bold;
@@ -114,4 +114,31 @@ body {
 }
 .queryContainer ul strong {
   margin: 50px 0;
+} 
+
+ .paginationBttns{
+
+  display:flex;
+  justify-content: center;
+  width:100%;
+  height: 40px;
+  list-style: none;
 }
+ .paginationBttns a{
+   margin:8px;
+   margin-top:50px;
+  padding:10px;
+  border-radius: 5px;
+  border: 1px solid #2d2eff;
+  color:#2d2eff;
+ 
+}
+ .paginationActive a{
+  color:white;
+  background-color:#2d2eff ;
+
+}
+.previousBttns,.nextBttns{
+  text-decoration: none;
+}
+.result{margin:50px 0}
